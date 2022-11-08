@@ -18,7 +18,7 @@ function init() {
     highScoreEl.innerText = highScore;
 }
 
-// Common function to display error or success message wih text color
+// Common function to display error or success message with text color
 function displayMessage(text, type) {
     message.innerText = text;
     message.style.color = (type == 'success') ? 'var(--success-text)' : 'var(--error-text)';
