@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess my number</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="secretNumberBtn" id="secretNumberBtn">?</button>
+
+        <h3>I am thinking of a number between 1-20.</h3>
+        <h3>Can you Guess it</h3>
+        <input type="text" placeholder="Num" id="guess" /><br />
+        <button id="guessBtn">GUESS</button>
+        <p>No. of Guess : <span id="totalGuess">0</span></p>
+
+        <h5>Score : <span id="labelScore">0</span></h5>
+        <h5>High Score : <span id="highScore">0</span></h5>
+        
+        <p class="message" id="message"></p>
+    </div>
+
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
