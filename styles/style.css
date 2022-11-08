@@ -65,13 +65,13 @@ select {
 
 @media (min-width: 481px) {
   .container {
-    width: 540px;
+    width: 480px;
   }
 }
 
-@media (min-width: 380px) {
+@media (min-width: 350px) {
   .container {
-    width: 500px;
+    width: 350px;
   }
 }
 
